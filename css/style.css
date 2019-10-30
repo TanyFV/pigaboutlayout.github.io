@@ -1,0 +1,197 @@
+html{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+section#main{
+    height: 70vh;
+    min-height: 500px;
+    text-align: center;
+    
+}
+
+section#titleText {
+    margin-top: 3rem;
+    padding-top: 17rem;
+    height: 50vh;
+    min-height: 500px;
+    background: url('../img/123.jpeg') no-repeat ;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+      
+}
+
+.fontSizeTitles{
+    font-size:2.5rem;
+}
+
+.fontSizeText{
+    font-size:2rem;
+}
+
+.container-fluid {
+    margin-top: 3rem;
+    background-color: #FAF9F7;
+    margin-bottom: 3rem;
+    
+}
+
+.tag-counter {
+    margin-top: 3rem;
+    background-color: #FAF9F7;
+    margin-bottom: 3rem;
+    
+}
+
+.paddingInfo{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    
+}
+
+.background-color-white{
+    background-color: #fff;
+}
+
+.rectW {
+    background-color: #fff;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.rectW:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: 700;
+    opacity:0;
+    
+}
+
+.viz{
+	opacity:1;
+	transition: 1s;
+}
+
+.btn-outline-danger {
+    color: #c07567;
+    border-color: #c07567;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   
+}
+
+.btn-danger {
+    background:  #c07567;
+    border-color: #c07567;
+    color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.font-size-counter{
+    font-size:30px;
+}
+
+
+
+section#portfolio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  
+}
+.portfolio-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+    text-transform: uppercase;
+    align-items: center; 
+
+}
+
+
+
+footer{
+    background-color: #3E789D;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+   
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+  }
+
+ 
+
+@media (max-width:768px)
+{
+    html{
+        font-size: 9px;
+    }
+    
+    .footer-info,.social-links, .callback{ 
+    margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:480px)
+{
+    html{
+        font-size: 8px;
+    } 
+}
+
+
+@media(max-width:900px)
+{
+    .portfolio-box{
+        padding: 1rem;
+    }
+}
+
+
+.parent{
+    position:relative;
+    border:2px solid red;
+    width:20%;
+    min-width:320px
+}
+
+.parent img{
+    display:block;
+    width:100%;
+}
+
+.parent div{
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+    color:#fff;
+    padding:10px 0;
+    background: rgba(255,0,0,0.5);
+    text-align: center
+}
+
+
+.bodyTitleText{
+    
+    background: url('../img/5.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.row.rec_ser, div.sectionNote, div.row.sectionOtziv, .sectionHowWork.rec_ser, .category{
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+}
